@@ -2,7 +2,7 @@
 
 ## About
 
-A short Python project, made with Tkinter GUI, on analysing the sentiment of an inputted sentence.
+A short Python project, made with Tkinter GUI, to analyse the sentiment of an inputted sentence.
 
 ## Prerequisites
 
