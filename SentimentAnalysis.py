@@ -1,7 +1,7 @@
 from tkinter import *
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-def clearAll() : 
+def clearall() : 
 	negativeField.delete(0, END) 
 	neutralField.delete(0, END) 
 	positiveField.delete(0, END) 
@@ -47,7 +47,7 @@ if __name__ == "__main__" :
 	positiveField = Entry(gui)
 	overallField = Entry(gui) 
 
-	clear = Button(gui, text = "Clear", fg = "Black", bg = "light blue", command = clearAll)
+	clear = Button(gui, text = "Clear", fg = "Black", bg = "light blue", command = clearall)
 	Exit = Button(gui, text = "Exit", fg = "Black", bg = "light blue", command = exit)
 	
 	enterText.grid(row = 0, column = 2)
